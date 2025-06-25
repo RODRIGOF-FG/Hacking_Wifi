@@ -58,6 +58,13 @@ iwconfig
 
 ### Escaneo de Redes Disponibles
 
+
+```cmd
+airodump-ng wlan0
+
+```
+
+
 <br>
 
 ### Desautenticacion de Dispositivos
