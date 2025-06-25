@@ -22,6 +22,31 @@
 
 ### Configuracion del Entorno
 
+
+```cmd
+sudo apt update
+sudo apt install -y dkms git build-essential
+
+```
+
+
+```cmd
+git clone https://github.com/ulli-kroll/rtl8821au.git
+cd rtl8821au
+sudo make dkms_install
+sudo reboot
+
+```
+
+
+```cmd
+airmon-ng check kill
+airmon-ng start wlan0
+iwconfig
+
+```
+
+
 <br>
 
 ### Escaneo de Redes Disponibles
