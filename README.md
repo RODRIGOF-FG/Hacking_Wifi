@@ -47,6 +47,13 @@ iwconfig
 ```
 
 
+```cmd
+airmon-ng stop wlan0
+service NetworkManager restart
+iwconfig
+
+```
+
 <br>
 
 ### Escaneo de Redes Disponibles
